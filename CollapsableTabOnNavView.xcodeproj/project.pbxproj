@@ -13,6 +13,10 @@
 		4060EE8F217330C10076B372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4060EE8E217330C10076B372 /* Assets.xcassets */; };
 		4060EE92217330C10076B372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4060EE90217330C10076B372 /* LaunchScreen.storyboard */; };
 		4060EE9D217330C10076B372 /* CollapsableTabOnNavViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EE9C217330C10076B372 /* CollapsableTabOnNavViewTests.swift */; };
+		4060EEAA217334670076B372 /* SegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEA8217334670076B372 /* SegmentedCell.swift */; };
+		4060EEAB217334670076B372 /* SegmentedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4060EEA9217334670076B372 /* SegmentedCell.xib */; };
+		4060EEAD217334990076B372 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEAC217334990076B372 /* BaseCell.swift */; };
+		4060EEAF217334DB0076B372 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEAE217334DB0076B372 /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		4060EE98217330C10076B372 /* CollapsableTabOnNavViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableTabOnNavViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4060EE9C217330C10076B372 /* CollapsableTabOnNavViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTabOnNavViewTests.swift; sourceTree = "<group>"; };
 		4060EE9E217330C10076B372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4060EEA8217334670076B372 /* SegmentedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedCell.swift; sourceTree = "<group>"; };
+		4060EEA9217334670076B372 /* SegmentedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedCell.xib; sourceTree = "<group>"; };
+		4060EEAC217334990076B372 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		4060EEAE217334DB0076B372 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,14 @@
 		4060EE86217330BF0076B372 /* CollapsableTabOnNavView */ = {
 			isa = PBXGroup;
 			children = (
+				4060EEA7217334670076B372 /* SegmentCell */,
 				4060EE87217330BF0076B372 /* AppDelegate.swift */,
 				4060EE89217330BF0076B372 /* ViewController.swift */,
 				4060EE8B217330BF0076B372 /* Main.storyboard */,
 				4060EE8E217330C10076B372 /* Assets.xcassets */,
 				4060EE90217330C10076B372 /* LaunchScreen.storyboard */,
 				4060EE93217330C10076B372 /* Info.plist */,
+				4060EEAE217334DB0076B372 /* BaseModel.swift */,
 			);
 			path = CollapsableTabOnNavView;
 			sourceTree = "<group>";
@@ -94,6 +104,16 @@
 				4060EE9E217330C10076B372 /* Info.plist */,
 			);
 			path = CollapsableTabOnNavViewTests;
+			sourceTree = "<group>";
+		};
+		4060EEA7217334670076B372 /* SegmentCell */ = {
+			isa = PBXGroup;
+			children = (
+				4060EEA8217334670076B372 /* SegmentedCell.swift */,
+				4060EEA9217334670076B372 /* SegmentedCell.xib */,
+				4060EEAC217334990076B372 /* BaseCell.swift */,
+			);
+			path = SegmentCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +199,7 @@
 			files = (
 				4060EE92217330C10076B372 /* LaunchScreen.storyboard in Resources */,
 				4060EE8F217330C10076B372 /* Assets.xcassets in Resources */,
+				4060EEAB217334670076B372 /* SegmentedCell.xib in Resources */,
 				4060EE8D217330BF0076B372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4060EEAD217334990076B372 /* BaseCell.swift in Sources */,
 				4060EE8A217330BF0076B372 /* ViewController.swift in Sources */,
 				4060EE88217330BF0076B372 /* AppDelegate.swift in Sources */,
+				4060EEAA217334670076B372 /* SegmentedCell.swift in Sources */,
+				4060EEAF217334DB0076B372 /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
