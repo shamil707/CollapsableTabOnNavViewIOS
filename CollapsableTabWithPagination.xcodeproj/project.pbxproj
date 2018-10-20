@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40280F8B217ADDB1003223BB /* PaginationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40280F8A217ADDB1003223BB /* PaginationViewController.swift */; };
 		4060EE88217330BF0076B372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EE87217330BF0076B372 /* AppDelegate.swift */; };
 		4060EE8A217330BF0076B372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EE89217330BF0076B372 /* ViewController.swift */; };
 		4060EE8D217330BF0076B372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4060EE8B217330BF0076B372 /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 		4060EEAB217334670076B372 /* SegmentedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4060EEA9217334670076B372 /* SegmentedCell.xib */; };
 		4060EEAD217334990076B372 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEAC217334990076B372 /* BaseCell.swift */; };
 		4060EEAF217334DB0076B372 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEAE217334DB0076B372 /* BaseModel.swift */; };
+		4060EEBB21748E380076B372 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEB921748E380076B372 /* PickerView.swift */; };
+		4060EEBC21748E380076B372 /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4060EEBA21748E380076B372 /* PickerView.xib */; };
+		4060EEBE21748F130076B372 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4060EEBD21748F130076B372 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4060EE84217330BF0076B372 /* CollapsableTabOnNavView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableTabOnNavView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40280F8A217ADDB1003223BB /* PaginationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationViewController.swift; sourceTree = "<group>"; };
+		4060EE84217330BF0076B372 /* CollapsableTabWithPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableTabWithPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4060EE87217330BF0076B372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4060EE89217330BF0076B372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4060EE8C217330BF0076B372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4060EE8E217330C10076B372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4060EE91217330C10076B372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4060EE93217330C10076B372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4060EE98217330C10076B372 /* CollapsableTabOnNavViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableTabOnNavViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4060EE98217330C10076B372 /* CollapsableTabWithPaginationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableTabWithPaginationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4060EE9C217330C10076B372 /* CollapsableTabOnNavViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTabOnNavViewTests.swift; sourceTree = "<group>"; };
 		4060EE9E217330C10076B372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4060EEA8217334670076B372 /* SegmentedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedCell.swift; sourceTree = "<group>"; };
 		4060EEA9217334670076B372 /* SegmentedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedCell.xib; sourceTree = "<group>"; };
 		4060EEAC217334990076B372 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		4060EEAE217334DB0076B372 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		4060EEB921748E380076B372 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		4060EEBA21748E380076B372 /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		4060EEBD21748F130076B372 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +75,8 @@
 		4060EE7B217330BF0076B372 = {
 			isa = PBXGroup;
 			children = (
-				4060EE86217330BF0076B372 /* CollapsableTabOnNavView */,
-				4060EE9B217330C10076B372 /* CollapsableTabOnNavViewTests */,
+				4060EE86217330BF0076B372 /* CollapsableTabWithPagination */,
+				4060EE9B217330C10076B372 /* CollapsableTabWithPaginationTests */,
 				4060EE85217330BF0076B372 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,15 +84,16 @@
 		4060EE85217330BF0076B372 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4060EE84217330BF0076B372 /* CollapsableTabOnNavView.app */,
-				4060EE98217330C10076B372 /* CollapsableTabOnNavViewTests.xctest */,
+				4060EE84217330BF0076B372 /* CollapsableTabWithPagination.app */,
+				4060EE98217330C10076B372 /* CollapsableTabWithPaginationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4060EE86217330BF0076B372 /* CollapsableTabOnNavView */ = {
+		4060EE86217330BF0076B372 /* CollapsableTabWithPagination */ = {
 			isa = PBXGroup;
 			children = (
+				4060EEB821748E380076B372 /* PickerView */,
 				4060EEA7217334670076B372 /* SegmentCell */,
 				4060EE87217330BF0076B372 /* AppDelegate.swift */,
 				4060EE89217330BF0076B372 /* ViewController.swift */,
@@ -93,17 +102,19 @@
 				4060EE90217330C10076B372 /* LaunchScreen.storyboard */,
 				4060EE93217330C10076B372 /* Info.plist */,
 				4060EEAE217334DB0076B372 /* BaseModel.swift */,
+				4060EEBD21748F130076B372 /* BaseView.swift */,
+				40280F8A217ADDB1003223BB /* PaginationViewController.swift */,
 			);
-			path = CollapsableTabOnNavView;
+			path = CollapsableTabWithPagination;
 			sourceTree = "<group>";
 		};
-		4060EE9B217330C10076B372 /* CollapsableTabOnNavViewTests */ = {
+		4060EE9B217330C10076B372 /* CollapsableTabWithPaginationTests */ = {
 			isa = PBXGroup;
 			children = (
 				4060EE9C217330C10076B372 /* CollapsableTabOnNavViewTests.swift */,
 				4060EE9E217330C10076B372 /* Info.plist */,
 			);
-			path = CollapsableTabOnNavViewTests;
+			path = CollapsableTabWithPaginationTests;
 			sourceTree = "<group>";
 		};
 		4060EEA7217334670076B372 /* SegmentCell */ = {
@@ -116,12 +127,21 @@
 			path = SegmentCell;
 			sourceTree = "<group>";
 		};
+		4060EEB821748E380076B372 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4060EEB921748E380076B372 /* PickerView.swift */,
+				4060EEBA21748E380076B372 /* PickerView.xib */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4060EE83217330BF0076B372 /* CollapsableTabOnNavView */ = {
+		4060EE83217330BF0076B372 /* CollapsableTabWithPagination */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4060EEA1217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabOnNavView" */;
+			buildConfigurationList = 4060EEA1217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabWithPagination" */;
 			buildPhases = (
 				4060EE80217330BF0076B372 /* Sources */,
 				4060EE81217330BF0076B372 /* Frameworks */,
@@ -131,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = CollapsableTabOnNavView;
+			name = CollapsableTabWithPagination;
 			productName = CollapsableTabOnNavView;
-			productReference = 4060EE84217330BF0076B372 /* CollapsableTabOnNavView.app */;
+			productReference = 4060EE84217330BF0076B372 /* CollapsableTabWithPagination.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4060EE97217330C10076B372 /* CollapsableTabOnNavViewTests */ = {
+		4060EE97217330C10076B372 /* CollapsableTabWithPaginationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4060EEA4217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabOnNavViewTests" */;
+			buildConfigurationList = 4060EEA4217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabWithPaginationTests" */;
 			buildPhases = (
 				4060EE94217330C10076B372 /* Sources */,
 				4060EE95217330C10076B372 /* Frameworks */,
@@ -149,9 +169,9 @@
 			dependencies = (
 				4060EE9A217330C10076B372 /* PBXTargetDependency */,
 			);
-			name = CollapsableTabOnNavViewTests;
+			name = CollapsableTabWithPaginationTests;
 			productName = CollapsableTabOnNavViewTests;
-			productReference = 4060EE98217330C10076B372 /* CollapsableTabOnNavViewTests.xctest */;
+			productReference = 4060EE98217330C10076B372 /* CollapsableTabWithPaginationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -173,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4060EE7F217330BF0076B372 /* Build configuration list for PBXProject "CollapsableTabOnNavView" */;
+			buildConfigurationList = 4060EE7F217330BF0076B372 /* Build configuration list for PBXProject "CollapsableTabWithPagination" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,8 +206,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4060EE83217330BF0076B372 /* CollapsableTabOnNavView */,
-				4060EE97217330C10076B372 /* CollapsableTabOnNavViewTests */,
+				4060EE83217330BF0076B372 /* CollapsableTabWithPagination */,
+				4060EE97217330C10076B372 /* CollapsableTabWithPaginationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4060EEBC21748E380076B372 /* PickerView.xib in Resources */,
 				4060EE92217330C10076B372 /* LaunchScreen.storyboard in Resources */,
 				4060EE8F217330C10076B372 /* Assets.xcassets in Resources */,
 				4060EEAB217334670076B372 /* SegmentedCell.xib in Resources */,
@@ -222,7 +243,10 @@
 				4060EE8A217330BF0076B372 /* ViewController.swift in Sources */,
 				4060EE88217330BF0076B372 /* AppDelegate.swift in Sources */,
 				4060EEAA217334670076B372 /* SegmentedCell.swift in Sources */,
+				4060EEBB21748E380076B372 /* PickerView.swift in Sources */,
 				4060EEAF217334DB0076B372 /* BaseModel.swift in Sources */,
+				4060EEBE21748F130076B372 /* BaseView.swift in Sources */,
+				40280F8B217ADDB1003223BB /* PaginationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +263,7 @@
 /* Begin PBXTargetDependency section */
 		4060EE9A217330C10076B372 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4060EE83217330BF0076B372 /* CollapsableTabOnNavView */;
+			target = 4060EE83217330BF0076B372 /* CollapsableTabWithPagination */;
 			targetProxy = 4060EE99217330C10076B372 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -383,7 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollapsableTabOnNavView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollapsableTabWithPagination/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,7 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CollapsableTabOnNavView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CollapsableTabWithPagination/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,7 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTabOnNavView.app/CollapsableTabOnNavView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTabWithPagination.app/CollapsableTabWithPagination";
 			};
 			name = Debug;
 		};
@@ -448,14 +472,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTabOnNavView.app/CollapsableTabOnNavView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTabWithPagination.app/CollapsableTabWithPagination";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4060EE7F217330BF0076B372 /* Build configuration list for PBXProject "CollapsableTabOnNavView" */ = {
+		4060EE7F217330BF0076B372 /* Build configuration list for PBXProject "CollapsableTabWithPagination" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4060EE9F217330C10076B372 /* Debug */,
@@ -464,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4060EEA1217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabOnNavView" */ = {
+		4060EEA1217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabWithPagination" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4060EEA2217330C10076B372 /* Debug */,
@@ -473,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4060EEA4217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabOnNavViewTests" */ = {
+		4060EEA4217330C10076B372 /* Build configuration list for PBXNativeTarget "CollapsableTabWithPaginationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4060EEA5217330C10076B372 /* Debug */,

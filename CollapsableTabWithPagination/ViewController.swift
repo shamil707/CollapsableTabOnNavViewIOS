@@ -6,11 +6,16 @@
 //  Copyright © 2018 MiteSolution. All rights reserved.
 import Foundation
 import UIKit
+protocol ViewControllerDelegate: class {
+    func onTabClick(selectedSegment: Int)
+}
+
 class ViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
     var selectedSegment: Int = 0
+    weak var delegate: ViewControllerDelegate?
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +45,14 @@ class ViewController: UIViewController {
                 imageView.image = #imageLiteral(resourceName: "FXLandingSmall")
             } else {
                 imageView.image = #imageLiteral(resourceName: "FxLandingBg")
+            }
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segureIDenitifier" {
+            if let pageVC = segue.destination as? PaginationViewController {
+                pageVC.viewController = self
+                pageVC.subDelegate = self
             }
         }
     }
@@ -89,5 +102,11 @@ extension ViewController: UICollectionViewDelegate {
             }
         }
         collectionView.reloadItems(at: [indexPath])
+        self.delegate?.onTabClick(selectedSegment: selectedSegment)
+    }
+}
+extension ViewController: PaginationViewControllerDelegate {
+    func onNext(selectedIndex: Int) {
+        self.collectionView(collectionView, didSelectItemAt: IndexPath(row: selectedIndex, section: 0))
     }
 }

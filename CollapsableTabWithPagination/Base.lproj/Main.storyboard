@@ -55,7 +55,7 @@
                                 <rect key="frame" x="0.0" y="134" width="375" height="533"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <segue destination="typ-dU-I4C" kind="embed" id="a18-yP-mYF"/>
+                                    <segue destination="rfK-l8-CoX" kind="embed" identifier="segureIDenitifier" id="9xn-E5-NQO"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -85,6 +85,59 @@
             </objects>
             <point key="canvasLocation" x="1126" y="-663"/>
         </scene>
+        <!--Pagination View Controller-->
+        <scene sceneID="hpz-SR-DBR">
+            <objects>
+                <pageViewController storyboardIdentifier="PaginationViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="rfK-l8-CoX" customClass="PaginationViewController" customModule="CollapsableTabOnNavView" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DW4-Ve-Xkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2234" y="-663"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MHU-T0-T0R">
+            <objects>
+                <viewController storyboardIdentifier="viewController4" id="Huz-GT-gGx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RGZ-dL-f6f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.84592936890000003" green="0.17798479810000001" blue="0.2052090838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="vCN-tQ-aft"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gu3-ps-9EM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="-1039"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YME-zz-Ms3">
+            <objects>
+                <viewController storyboardIdentifier="viewController3" id="T7F-hf-zRr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CoU-aT-FZp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.87407316909999999" blue="0.17671338989999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="b0i-Zx-Pl8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCT-Co-lmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="-247"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j96-mY-01a">
+            <objects>
+                <viewController storyboardIdentifier="viewController2" id="Lhs-Tt-dBF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Rm-i4-7KV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.45011292470000003" blue="0.97103401950000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="h4Q-Wd-2Yh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ix1-TO-oSf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="546"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Y1H-ul-wcU">
             <objects>
@@ -106,16 +159,17 @@
         <!--View Controller-->
         <scene sceneID="IeC-0h-YL7">
             <objects>
-                <viewController id="typ-dU-I4C" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="viewController1" id="typ-dU-I4C" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3i4-su-Knh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="533"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.49275010120000001" green="1" blue="0.32550697620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="FJP-ry-3xn"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3f-vV-uhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1126" y="-15"/>
+            <point key="canvasLocation" x="3284" y="-1802"/>
         </scene>
     </scenes>
     <resources>
